@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+}
+.container {
+    margin: 0 auto;
+    border: 1px black solid;
+    width: 50%;
+    height: 70%px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.container p {
+    padding-top: 2%;
+
+}
+form {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.ul-list-of-movies {
+    list-style-type: none;
+
+}
+.ul-list-of-movies li:nth-child(odd){
+    background-color: burlywood;
+}
+/* Creat movie css */
+
+.add-movie {
+    margin-bottom: 3%;
+    display: flex;
+    align-items: center;
+}
+.add-movie label {
+    padding-top: 1% ;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    align-self: baseline;
+    
+}
+.create-movie {
+    background-color: #4CAF4F;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+
+}
+.add-movie input {
+    width: 95%;
+    height: 30px;
+    
+}
+
+.add-movie select {
+    width: 95%;
+    margin-top: 3%;
+    height: 30px;
+}
+/* Program */
+.add-movie-program {
+    margin-bottom: 3%;
+    display: flex;
+    align-items: center;
+}
+.add-movie-program label {
+    padding-top: 1% ;
+    
+    padding-left: 1%;
+    align-self: baseline;
+    
+}
+.create-program {
+    background-color: #4CAF4F;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+
+}
+.add-movie-program input {
+    width: 95%;
+    height: 30px;
+    
+}
+
+.add-movie-program select {
+    width: 95%;
+    margin-top: 3%;
+    height: 30px;
+}
+.movie-to-program {
+    background-color: #4CAF4F;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+
+}
+.program-list-ul {
+    align-self: baseline;
+    padding-left: 5%;
+    
+    
+}
+
