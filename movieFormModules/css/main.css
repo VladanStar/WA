@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    
+}
+.container {
+    max-width: 900px;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 15px;
+}
+h1 {
+    text-align: center;
+}
+label, select {
+    display: block;
+}
+
+form {
+    border: 1px solid black;
+    color: rgb(112, 112, 112);
+}
+
+.button {
+    background-color: #4CAF4F;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-top: 5px;
+}
+input {
+    width: 100%;
+    padding: 5px;
+    
+}
+select {
+    width: 100%;
+    background-color: #F8F8F8;
+    padding: 5px;
+    margin-top: 5px;
+}
+li {
+    list-style-type: none;
+}

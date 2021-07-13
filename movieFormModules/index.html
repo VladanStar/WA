@@ -1,0 +1,60 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Movies Festival</title>
+</head>
+<body>
+    <h1>Movie Festival</h1>
+    <div class="container">
+        <p>Please Fill in the form</p>
+        <p>Movie</p>
+        <form action="movie" class="add-movie">
+            <label for="" >Title</label>
+            <input type="text" name="titel" id="name-of-movie" placeholder="Title">
+            <label for="">Length (min)</label>
+            <input type="number" name="length" placeholder="Length in min" id="lenght-of-movie">
+            <select name="movie-gener" id="gener-movie">
+                <option value="">-</option>
+                <option value="action">Action</option>
+                <option value="comedy">Comedy</option>
+                <option value="drama">Drama</option>
+                <option value="horor">Horor</option>
+            </select>
+            <input type="button" value="Create movie" class="create-movie">
+        </form>
+        <p class="error-msg"></p> <!--greska ako nije uneto neko od polja-->
+        <ul id='addmovies' class="ul-list-of-movies">
+            <!--dodavanje filmova-->
+        </ul>
+        <p>Program</p>
+        <form action="program" class="add-movie-program">
+            <label for="date">Date</label>
+            <input type="date" placeholder="mm/dd/yyyy" class="program-date">
+            <input type="button" value="Create program" class="create-program">
+            <ul class="program-list-ul">
+                <!--dodavanje filmova na program-->
+            </ul>
+            <label for="">Movie</label>
+            <select name="list-of-movies" id="list-of-movies">
+                <option value="">-</option>
+            </select>
+            <label for="">Program</label>
+            <select name="program-list" id="program-list">
+                <option value="">-</option>
+            </select>
+            <input type="button" value="Add movie to program" class="movie-to-program">
+        </form>
+
+
+
+
+    </div>
+    <script type= "module"src="./js/main.js"></script>
+   
+</body>
+</html>

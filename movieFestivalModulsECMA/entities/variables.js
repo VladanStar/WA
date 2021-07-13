@@ -1,5 +1,4 @@
-import Festival from './fetival.js';
-export var festival = new Festival()
+
 export var nameOfMovie = document.querySelector('#name-of-movie');
 export var lengthOfMovie = document.querySelector('#lenght-of-movie');
 export var generOfMovie = document.querySelector('#gener-movie');
