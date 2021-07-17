@@ -4,9 +4,9 @@ function convertToJson(response) {
   return response.json();
 }
 
-function printJokeToPage(contatainerJoke) {
-  div.textContent = contatainerJoke;
-  document.body.appendChild(div);
+//
+function extractJoke(dataObject) {
+  return dataObject.value;
 }
 
 function printJokeToPage(jokes) {
