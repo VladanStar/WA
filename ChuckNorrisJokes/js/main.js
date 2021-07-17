@@ -4,16 +4,7 @@ function convertToJson(response) {
   return response.json();
 }
 
-function printJock(joke) {
-  console.log(joke);
-}
-
-function extractJoke(dataObject) {
-  return dataObject.value;
-}
-
 function printJokeToPage(contatainerJoke) {
-  //const  div = document.querySelector("div")
   div.textContent = contatainerJoke;
   document.body.appendChild(div);
 }
