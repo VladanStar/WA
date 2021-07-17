@@ -1,4 +1,5 @@
 const jockServerAddress = "https://api.chucknorris.io/jokes/random";
+
 function convertToJson(response) {
   return response.json();
 }
@@ -30,13 +31,6 @@ function fetchJoke() {
     .then(convertToJson)
     .then(extractJoke)
     .then(printJokeToPage);
-}
-
-function rendersJokeToPage(jokes) {
-  const container = document.querySelector("div");
-  const span = document.createElement("span");
-  span.textContent = jokes;
-  container.appendChild(span);
 }
 
 function button() {
