@@ -4,7 +4,6 @@ function convertToJson(response) {
   return response.json();
 }
 
-//
 function extractJoke(dataObject) {
   return dataObject.value;
 }
@@ -26,7 +25,7 @@ function fetchJoke() {
 
 function button() {
   const button = document.createElement("button");
-  button.textContent = "joke";
+  button.textContent = "Joke Chuck Norris";
   document.body.appendChild(button);
   button.addEventListener("click", fetchJoke);
 }
