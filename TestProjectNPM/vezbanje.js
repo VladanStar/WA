@@ -1,9 +1,4 @@
-// let funWords = require('funny-words');
 
-// const funnyW = t =>  funWords();
-
-// const funny = funnyW('Nesto se sprema');
-// console.log(funny);
 console.log("1");
 let funnyWords = require("funny-words");
 
