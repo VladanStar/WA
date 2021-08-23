@@ -1,0 +1,20 @@
+.Post__listItem {
+  text-align: center;
+  background-color: seagreen;
+  color: #ffffff;
+  height: 100px;
+}
+
+.Post__headline {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 0px;
+  padding-top: 20px;
+}
+
+.Post__info {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 24px;
+  margin: 0;
+}
