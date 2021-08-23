@@ -3,6 +3,7 @@
   background-color: darkslateblue;
   color: #ffffff;
   height: 100px;
+  padding-left: 20px;
 }
 
 .Post__headline {
@@ -11,6 +12,8 @@
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   margin-bottom: 0px;
   padding-top: 20px;
+  text-align: left;
+  padding-left: 20px;
 }
 
 .Post__info {
