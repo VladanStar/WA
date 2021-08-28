@@ -1,0 +1,32 @@
+.LoginForm__wrapper {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+#LoginForm__username {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 25px;
+  text-align: center;
+}
+
+#LoginForm__password {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 25px;
+  text-align: center;
+}
+
+#LoginForm__login {
+  display: block;
+  margin: 0 auto;
+}
+
+#LoginForm__reset {
+  display: block;
+  margin: 0 auto;
+}

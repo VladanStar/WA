@@ -1,0 +1,7 @@
+.GridView__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
