@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
+=======
+>>>>>>> 63a9a1957d5e69a7191c6053eb9227b12682f1c9
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -8,23 +11,41 @@ In the project directory, you can run:
 
 ### `npm start`
 
+<<<<<<< HEAD
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
+=======
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.<br />
+>>>>>>> 63a9a1957d5e69a7191c6053eb9227b12682f1c9
 You will also see any lint errors in the console.
 
 ### `npm test`
 
+<<<<<<< HEAD
 Launches the test runner in the interactive watch mode.\
+=======
+Launches the test runner in the interactive watch mode.<br />
+>>>>>>> 63a9a1957d5e69a7191c6053eb9227b12682f1c9
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
+<<<<<<< HEAD
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.\
+=======
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br />
+>>>>>>> 63a9a1957d5e69a7191c6053eb9227b12682f1c9
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
@@ -47,6 +68,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Code Splitting
 
+<<<<<<< HEAD
 This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
 ### Analyzing the Bundle Size
@@ -68,3 +90,26 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+>>>>>>> 63a9a1957d5e69a7191c6053eb9227b12682f1c9

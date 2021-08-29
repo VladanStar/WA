@@ -1,0 +1,30 @@
+.Header__wrapper {
+    background-color: #ee6e73;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 1px 1px 3px #0000007a;
+}
+
+.Header__switcher>h4 {
+    font-size: 18px;
+    margin: 0px;
+    padding: 22px 10px;
+}
+
+.Header__switcher {
+    display: flex;
+    align-items: center;
+}
+
+.Header__switcher>svg {
+    width: 1.5em;
+    height: 1.5em;
+    font-weight: bold;
+    margin: 0px;
+    padding: 23px 20px;
+}
+
+.Header__switcher>svg:hover, .Header__switcher>h4:hover {
+    background-color: rgba(0, 0, 0, .1);
+}

@@ -1,4 +1,11 @@
 body {
+<<<<<<< HEAD
   background-color: blue;
   padding: 100px 0;
 }
+=======
+  margin: 0;
+  font-family: monospace;
+  background-color: #3499dd;
+}
+>>>>>>> 63a9a1957d5e69a7191c6053eb9227b12682f1c9

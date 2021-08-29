@@ -1,0 +1,21 @@
+.User__wrapper {
+    display: flex;
+    padding: 10px;
+    border: 0.5px solid lightgrey;
+    border-bottom: none;
+}
+
+.User__wrapper:last-child {
+    border-bottom: 0.5px solid lightgrey;
+}
+
+.User__wrapper>img {
+    border-radius: 25px;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.User__info>p, .User__info>h4 {
+    margin: 0px;
+    margin-top: 2px;
+}
