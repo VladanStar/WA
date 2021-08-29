@@ -1,0 +1,8 @@
+.GridUsers__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}

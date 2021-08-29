@@ -1,0 +1,25 @@
+.UserCard__wrapper {
+    padding: 10px;
+    border-bottom: 1px solid #BEC2C6;
+}
+
+.UserCard__wrapper > h3 {
+    font-family: monospace;
+    color: #EA5421;
+}
+
+.UserCard__info {
+    display: flex;
+}
+
+.UserCard__info>p {
+    font-family: monospace;
+    color: #797979;
+}
+
+.UserCard__info>p:last-child {
+    background-color: #17A1B6;
+    color: #fff;
+    padding: 0px 5px;
+    border-radius: 10px;
+}

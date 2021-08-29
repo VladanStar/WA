@@ -1,0 +1,11 @@
+.Header__wrapper {
+    background-color: #EA5421;
+    height: 30px;
+    padding: 10px;
+}
+
+.Header__wrapper > h1 {
+    margin: 0;
+    color: #fff;
+    font-family: monospace;
+}

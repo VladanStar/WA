@@ -1,0 +1,20 @@
+.Post__title {
+    color: rgb(238, 112, 39);
+    font-family: monospace;
+    font-size: 14px;
+}
+
+.Post__info {
+    display: flex;
+}
+
+p {
+    margin: 5px
+}
+
+.Post__comments {
+    background-color: #4ab0ef;
+    border-radius: 10px;
+    padding: 0px 7px;
+    color: #fff;
+}
